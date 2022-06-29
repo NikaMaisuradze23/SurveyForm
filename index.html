@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<headre>
+   
+<h1 id="title">Mercedes-benz Model Purchase</h1>
+</headre>
+  
+<body>
+<p id="description"> Fill details below to complete your MB order </p>
+
+
+<form id="survey-form">
+  
+ <div class="input-headings">
+  
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" name="name" placeholder="Nika Maisuradze" class="from-inputs" required> </input>
+<br>
+
+<label for="email" id="email-label">Email</label>
+<input id="email" type="email" name="email" placeholder="nikamaisuradze@gmail.com" class="from-inputs" required> </input>
+<br>
+
+<label for="number" id="number-label">Age</label>
+<input id="number" type="number" name="number" placeholder="19" min="18" max="100"class="from-inputs" required> </input>
+<br>
+
+
+<label for="dropdown" id="model">Select model</label>
+<select id="dropdown" class="from-inputs">
+  <option value="E_Class">E Class</option>
+  <option value="A_Class">A Class</option>
+  <option value="B_Class">B Class</option>
+  <option value="G_Class">G Class</option>
+  <option value="CLS_Class">CLS Class</option>
+</select>
+<br>
+<br>
+
+<label for="model_color" id="model_color"><b>Model color:</b></label> 
+<br>
+<input id="model_color" type="radio" id="black" name="color" value="black"></inpu>
+<label for="model_color">Black</label> 
+<br>
+<input id="model_color" type="radio" id="grey" name="color" value="Grey"></inpu>
+<label for="model_color">Grey</label> 
+<br>
+<input id="model_color" type="radio" id="black" name="color" value="White"></inpu>
+<label for="model_color">White</label> 
+<br>
+<br>
+
+<label for="features"><b>Add features: </b></label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="autopilots"></input>
+<label for="checkbox">Full Self-Driving (Autopilot) - 3000$ </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="alumin_wheel"></input>
+<label for="checkbox">Alumin Wheel - 500$ </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="big_monitor"></input>
+<label for="checkbox">Big Monitor - 1000$ </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="comfort_interier"></input>
+<label for="checkbox">Comfort Interier - 3000$ </label>
+<br>
+<br>
+<label id="textarea"> Additional Comments </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40">
+  
+
+</textarea>
+
+<br>
+<input id="submit" type="submit" value="Place Order" class="submit-button"></input>
+</div>
+</form>
+</body>
+</html>
